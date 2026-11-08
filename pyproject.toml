@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lg-gnn-reference"
+version = "0.1.0"
+description = "Reference implementation of anatomy-grounded MRI/PET graph learning"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "torch>=2.2,<3", "scikit-learn>=1.4,<2"]
+
+[project.optional-dependencies]
+images = ["torchvision>=0.17,<1"]
+language = ["transformers>=4.45,<6"]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+lg-gnn = "lg_gnn.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

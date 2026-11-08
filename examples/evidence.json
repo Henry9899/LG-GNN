@@ -1,0 +1,10 @@
+{
+  "records": [
+    {"id": "synthetic-hip-L:MRI:measured", "region": "Synthetic hippocampus", "laterality": "L", "modality": "MRI", "value": -1.8, "unit": "z_score", "source": "measured", "quality": "pass"},
+    {"id": "synthetic-hip-L:PET:measured", "region": "Synthetic hippocampus", "laterality": "L", "modality": "PET", "value": -0.7, "unit": "z_score", "source": "measured", "quality": "pass"},
+    {"id": "synthetic-hip-L:MRI:predicted", "region": "Synthetic hippocampus", "laterality": "L", "modality": "MRI", "value": -1.6, "unit": "z_score", "source": "predicted", "quality": "pass"},
+    {"id": "synthetic-frontal-R:MRI:measured", "region": "Synthetic frontal region", "laterality": "R", "modality": "MRI", "value": null, "unit": "z_score", "source": "measured", "quality": "not_assessed"}
+  ],
+  "probabilities": {"NC": 0.15, "MCI": 0.55, "AD": 0.3},
+  "provenance": "Artificial example only; probabilities are illustrative, not model output."
+}

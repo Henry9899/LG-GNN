@@ -1,0 +1,21 @@
+{
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "calibration_fraction": 0.2,
+  "epochs": 60,
+  "batch_size": 16,
+  "learning_rates": [0.00001, 0.0001, 0.001],
+  "hidden": 256,
+  "heads": 8,
+  "diffusion_steps": 3,
+  "alpha": 0.5,
+  "concept_weight": 0.5,
+  "focal_weight": 0.5,
+  "contrastive_weight": 0.3,
+  "weight_decay": 0.01,
+  "coverage_threshold": 20,
+  "strict_bottleneck": false,
+  "seed": 17,
+  "device": "cpu",
+  "threads": 1
+}

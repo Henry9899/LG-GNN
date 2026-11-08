@@ -1,0 +1,14 @@
+{
+  "outer_folds": 3,
+  "inner_folds": 2,
+  "calibration_fraction": 0.2,
+  "epochs": 2,
+  "batch_size": 16,
+  "learning_rates": [0.001, 0.0001],
+  "hidden": 32,
+  "heads": 4,
+  "diffusion_steps": 2,
+  "seed": 17,
+  "device": "cpu",
+  "threads": 1
+}
